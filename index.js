@@ -34,11 +34,11 @@ client.on('ready', async () => {
     .setAssetsLargeText('Made by tragic')
     .setAssetsSmallImage('https://cdn.discordapp.com/emojis/917227945712562207.gif?size=96&quality=lossless')
     .setAssetsSmallText('Verified')
-    .addButton('-`♡´-', 'https://hello.lrmn.site/')
-    .addButton('-`♡´-', 'https://hii.lrmn.site');
+    .addButton('me?', 'https://hello.lrmn.site/')
+    .addButton('Patreon?', 'https://www.patreon.com/LRMN');
 
   client.user.setActivity(r);
-  client.user.setPresence({ status: "dnd" });
+  client.user.setPresence({ status: "idle" });
 
   setInterval(() => {
     const newTime = formatTime();
