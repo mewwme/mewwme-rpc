@@ -24,25 +24,24 @@ client.on('ready', async () => {
 
   const r = new Discord.RichPresence()
     .setApplicationId('1091763429779443844')
-    .setType('PLAYING')
+    .setType('LISTENING')
     .setURL('https://www.youtube.com/watch?v=xvFZjo5PgG0')
-    .setState('Everyone dies at the end.')
-    .setName('oWalah')
-    .setDetails(`Mostly sleepless`)
+    .setState('Youtube, Spotify & Soundcloud, Etc')
+    .setName('Moo ♪')
+    .setDetails(`Moo ♪ a discord bot music`)
     .setStartTimestamp(Date.now())
-.setAssetsLargeImage('https://cdn.discordapp.com/banners/1081461785497960448/a_e2e35b6dd1fea1f8d432ddfd4f315e80.gif?size=4096')
-    .setAssetsLargeText('Made by tragic')
+.setAssetsLargeImage('https://cdn.discordapp.com/attachments/1098969636306960465/1145731562021859339/moo.png')
+    .setAssetsLargeText('Moo ♪')
     .setAssetsSmallImage('https://cdn.discordapp.com/emojis/917227945712562207.gif?size=96&quality=lossless')
     .setAssetsSmallText('Verified')
-    .addButton('me?', 'https://hello.lrmn.site/')
-    .addButton('Patreon?', 'https://www.patreon.com/LRMN');
-
+    .addButton('Invite Moo ♪', 'https://discord.com/api/oauth2/authorize?client_id=1135151608565616662&permissions=689379470656&scope=applications.commands%20bot')
+    .addButton('Website Moo ♪', 'https://moo.is-a.fun/');
   client.user.setActivity(r);
   client.user.setPresence({ status: "idle" });
 
   setInterval(() => {
     const newTime = formatTime();
-    const newDetails = `Mostly sleepless`; //`are you sleeping?`;
+    const newDetails = `Moo ♪ a discord bot music`; //`are you sleeping?`;
     r.setDetails(newDetails);
     client.user.setActivity(r);
   }, 1000); // Update every second
