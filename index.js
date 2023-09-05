@@ -24,7 +24,7 @@ client.on('ready', async () => {
 
   const r = new Discord.RichPresence()
     .setApplicationId('1091763429779443844')
-    .setType('PLAYING')
+    .setType('WATCHING')
     .setURL('https://www.youtube.com/watch?v=xvFZjo5PgG0')
     .setState('Moderation, Music, Fun, Utility, Etc')
     .setName('Lucy ♡')
