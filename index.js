@@ -24,24 +24,24 @@ client.on('ready', async () => {
 
   const r = new Discord.RichPresence()
     .setApplicationId('1091763429779443844')
-    .setType('WATCHING')
+    .setType('LISTENING')
     .setURL('https://www.youtube.com/watch?v=xvFZjo5PgG0')
-    .setState('Moderation, Music, Fun, Utility, Etc')
-    .setName('Lucy ♡')
-    .setDetails(`a discord moderation & music  24/7`)
+    .setState('Prambors 102.2 FM Jakarta')
+    .setName('+62 Radio')
+    .setDetails(`Radio nya warga +62`)
     .setStartTimestamp(Date.now())
-.setAssetsLargeImage('https://cdn.discordapp.com/attachments/1098969636306960465/1148603329291763834/luciaaa.png')
-    .setAssetsLargeText('Moo ♪')
+.setAssetsLargeImage('https://cdn.discordapp.com/avatars/1090120136167538748/1d5bced34a4a9d90f7033fbc95264faa.webp?size=1024&width=0&height=256')
+    .setAssetsLargeText('+62 Radio')
     .setAssetsSmallImage('https://cdn.discordapp.com/emojis/917227945712562207.gif?size=96&quality=lossless')
     .setAssetsSmallText('Verified')
-    .addButton('Invite Lucy ♡', 'https://discord.com/api/oauth2/authorize?client_id=928966154817523723&permissions=1073080662&scope=applications.commands%20bot&redirect_uri=https%3A%2F%2Flucy.hop.sh%2Fapi%2Fcallback')
-    .addButton('Website Lucy ♡', 'https://lucy.is-a.fun/');
+    .addButton('Listen', 'https://discord.com/oauth2/authorize?client_id=1090120136167538748&permissions=551940254784&redirect_uri=https%3A%2F%2F62radio.is-a.fun%2Fthankyou&response_type=code&scope=guilds.join%20bot%20applications.commands')
+    .addButton('Website', 'https://62radio.is-a.fun/');
   client.user.setActivity(r);
   client.user.setPresence({ status: "idle" });
 
   setInterval(() => {
     const newTime = formatTime();
-    const newDetails = `a discord moderation & music  24/7`; //`are you sleeping?`;
+    const newDetails = `Radio nya warga +62`; //`are you sleeping?`;
     r.setDetails(newDetails);
     client.user.setActivity(r);
   }, 1000); // Update every second
