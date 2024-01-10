@@ -42,7 +42,7 @@ client.on("ready", async () => {
       "Listening",
       "https://discord.com/api/oauth2/authorize?client_id=928711702596423740&permissions=551940385840&response_type=code&redirect_uri=https%3A%2F%2Fdiscord.gg%2F6EXgrmtkPX&scope=guilds.join+bot+applications.commands",
     )
-    .addButton("Server Support", "https://discord.gg/2pkvB82NaS");
+    .addButton("Server Support", "https://discord.gg/6EXgrmtkPX");
   client.user.setActivity(r);
   client.user.setPresence({ status: "idle" });
 
