@@ -23,7 +23,7 @@ client.on("ready", async () => {
   console.log(`${client.user.tag} - rich presence started!`);
 
   const r = new Discord.RichPresence()
-    .setApplicationId("1091763429779443844")
+    .setApplicationId("928711702596423740")
     .setType("LISTENING")
     .setURL("https://www.youtube.com/watch?v=xvFZjo5PgG0")
     .setState("on discord with your friends!")
@@ -31,7 +31,7 @@ client.on("ready", async () => {
     .setDetails(`Listen to your favourite music,`)
     .setStartTimestamp(Date.now())
     .setAssetsLargeImage(
-      "https://cdn.discordapp.com/attachments/1124064844845428796/1187070205071982702/avatarme.png",
+      "https://cdn.discordapp.com/attachments/1239455856748400661/1248431340651679784/Mewwme_-_Discord_Avatar.jpg?ex=6663a3ca&is=6662524a&hm=b0e192a748a9eb64376ec42c4e4614d7506388f6ef51f5f43cf290c506d2073b&",
     )
     .setAssetsLargeText(`Mewwme's`)
     .setAssetsSmallImage(
@@ -40,7 +40,7 @@ client.on("ready", async () => {
     .setAssetsSmallText("Verified")
     .addButton(
       "Listening",
-      "https://discord.com/api/oauth2/authorize?client_id=928711702596423740&permissions=551940385840&response_type=code&redirect_uri=https%3A%2F%2Fdiscord.gg%2F6EXgrmtkPX&scope=guilds.join+bot+applications.commands",
+      "https://discord.com/oauth2/authorize?client_id=928711702596423740&permissions=2184571952&scope=bot+applications.commands",
     )
     .addButton("Server Support", "https://discord.gg/6EXgrmtkPX");
   client.user.setActivity(r);
