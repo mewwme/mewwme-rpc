@@ -1,10 +1,10 @@
 {
-  "name": "mewwme",
+  "name": "mewwme-rpc",
   "version": "3.0.0",
   "description": "Allows you to keep your account status as streaming. It also allows you to set a gif link as your image in your rpc and have 2 buttons. It is fully customizable!",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon node app.js"
+    "start": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
@@ -14,10 +14,7 @@
     "discord.js-selfbot-v13": "^3.4.0",
     "dotenv": "16.4.5",
     "express": "4.21.1",
-    "gradient-string": "^3.0.0",
-    "modul": "^0.0.1",
-    "node-fetch": "3.3.2",
-    "yarn": "^1.22.22"
+    "node-fetch": "3.3.2"
   },
   "devDependencies": {
     "nodemon": "^3.1.7"
