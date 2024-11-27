@@ -22,3 +22,4 @@ module.exports = {
     statusChangeInterval: 6000, // Interval for auto status change in milliseconds (1000 = 1 seconds)
     manualStatus: "idle" // Used only if statusMode is "manual" Options "online" "idle" "dnd"	
   };
+  
